@@ -272,3 +272,174 @@ footer {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+@media screen and (max-width: 768px) { 
+
+    .right-nav {
+        display: none;
+    }
+
+    header {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    img[src="./images/man.png"] {
+        width: 100vw;
+    }
+
+    .about {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .experience {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .projects {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .number-card {
+        width: 70%;
+    }
+
+    .container {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .row1 {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        width: 100vw; 
+    }
+
+    .contact-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .contact-box h5 {
+        font-size: 1.5rem;
+    }
+
+    .contact-box p {
+        font-size: 1rem;
+    }
+   
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .mobile-bar {
+        display: none;
+    }
+
+    header {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    img[src="./images/man.png"] {
+        width: 100vw;
+    }
+
+    .about {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .experience {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .projects {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .number-card {
+        width: 70%;
+    }
+
+
+    .container {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .row1 {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        width: 100vw; 
+    }
+
+    .contact-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .contact-box h5 {
+        font-size: 1.5rem;
+    }
+
+    .contact-box p {
+        font-size: 1rem;
+    }
+   
+
+
+
+
+
+
+
+}
+
+
+@media screen and (min-width: 1024px) { 
+
+    .mobile-bar {
+        display: none;
+    }
+}
+
+}
+
